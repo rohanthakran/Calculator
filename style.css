@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 .centercalcy{
     height: 100vh;
@@ -73,4 +73,9 @@ input{
 input:hover{
     background-color: #474747;
     border: 1px solid gray;
+}
+@media (max-width : 680px){
+    .centercalcy{
+        background-color: hotpink;
+    }
 }
